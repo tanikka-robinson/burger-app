@@ -1,0 +1,62 @@
+.container {
+    background: black;
+    color: white;
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.modal {
+    background-color: #202020;
+    /* Grey background */
+    margin: 50px auto;
+    /* Centered with margin */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    /* Adjust based on your design preference */
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    /* White background for each item */
+}
+
+.cartSpan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconCircle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.productName,
+.productPrice {
+    flex-grow: 1;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    color: red;
+    /* Red color for delete icon */
+}

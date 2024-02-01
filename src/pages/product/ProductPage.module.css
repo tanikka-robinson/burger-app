@@ -1,0 +1,44 @@
+.container {
+    background: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.modal {
+    background-color: #202020;
+    /* Grey background */
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.goBackButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.productImage {
+    width: 50%;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.addToCartButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
